@@ -69,6 +69,12 @@ Follow the prompts:
 - **Modular Design**  
   Easy to extend to other schools or add more statistical and analytical features.
 
+## Example Screenshot
+
+Below is a example plot generated from department of Mathematics
+
+![Difficulty Ranking Chart](plots/myplot1.png)
+
 ## Notes
 
 - **RateMyProfessors Access Limitations**: Set reasonable delays when scraping (this project uses 1.5 seconds/request) to avoid IP bans.
