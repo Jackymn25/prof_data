@@ -22,8 +22,13 @@ A tool for scraping and analyzing data from [RateMyProfessors](https://www.ratem
 Install the required Python libraries:
 
 ```bash
-pip install matplotlib requests fake_useragent
+pip install matplotlib requests fake_useragent difflib
 ```
+
+> **Note**:  
+> - `matplotlib` is used for plotting graphs.  
+> - `requests` and `fake_useragent` are used for web scraping.  
+> - `difflib` is part of the Python Standard Library (no extra installation needed).
 
 ## Usage
 
@@ -57,7 +62,6 @@ Follow the prompts:
 
 - **Visualization**  
   Supports plotting:
-
   - Top 100 lowest-rated professors university-wide
   - Top 100 most difficult professors university-wide
   - Department average ratings and difficulties
@@ -70,8 +74,4 @@ Follow the prompts:
 
 - **RateMyProfessors Access Limitations**: Set reasonable delays when scraping (this project uses 1.5 seconds/request) to avoid IP bans.
 - **Cookie Settings**: If authorized data access is required, configure your own Cookie information in `update.py`.
-- **For educational and research purposes only**.
-
-## Example Screenshots
-
-(You can add screenshots of the generated plots here)
+- **For educational and research purposes only.**
