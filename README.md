@@ -61,8 +61,8 @@ Follow the prompts:
 
 - **Visualization**  
   Supports plotting:
-  - Top 100 lowest-rated professors university-wide
-  - Top 100 most difficult professors university-wide
+  - Top 50 lowest-rated professors university-wide
+  - Top 50 most difficult professors university-wide
   - Department average ratings and difficulties
   - Internal rankings for professors within a selected department
 
