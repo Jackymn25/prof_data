@@ -22,7 +22,7 @@ A tool for scraping and analyzing data from [RateMyProfessors](https://www.ratem
 Install the required Python libraries:
 
 ```bash
-pip install matplotlib requests fake_useragent
+pip install -r requirements.txt
 ```
 
 > **Note**:  
