@@ -55,8 +55,8 @@ sorted_by_difficulty = sorted(
     reverse=True
 )
 
-# show <= 100 profs
-top_n = 100
+# show <= 50 profs
+top_n = 50
 rating_names = [p.name for p in sorted_by_rating[:top_n]]
 rating_scores = [
     bayesian_score(p.get_avg_rate()[0], p.sample_size, C_rating, m)
