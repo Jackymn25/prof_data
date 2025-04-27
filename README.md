@@ -22,13 +22,12 @@ A tool for scraping and analyzing data from [RateMyProfessors](https://www.ratem
 Install the required Python libraries:
 
 ```bash
-pip install matplotlib requests fake_useragent difflib
+pip install matplotlib requests fake_useragent
 ```
 
 > **Note**:  
 > - `matplotlib` is used for plotting graphs.  
 > - `requests` and `fake_useragent` are used for web scraping.  
-> - `difflib` is part of the Python Standard Library (no extra installation needed).
 
 ## Usage
 
