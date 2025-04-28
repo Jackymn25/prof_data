@@ -71,7 +71,7 @@ Follow the prompts:
 
 ## Example Screenshot
 
-Below is a example plot generated from department of Mathematics
+Below is a example plot generated from department of Mathematics.
 
 ![Difficulty Ranking Chart](plots/myplot1.png)
 
