@@ -73,7 +73,7 @@ Follow the prompts:
 
 Below is a example plot generated from department of Mathematics.
 
-![Difficulty Ranking Chart](plots/myplot1.png)
+![Difficulty Ranking Chart]([plots/myplot1.png](https://github.com/Jackymn25/utm-professor-analysis-rmp/blob/main/plots/myplot1.png))
 
 ## Notes
 
