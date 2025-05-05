@@ -43,6 +43,11 @@ Note: Must update for first run!
 python main.py
 ```
 
+```bash
+Would you like to update? (y/n)
+```
+Enter 'y' for first run.
+
 Follow the prompts:
 
 - Choose whether to update data (updates will re-scrape all professors and comments and backup old data).
