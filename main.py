@@ -28,14 +28,17 @@ while True:
         print("Invalid input, please try again")
 
 # read all data
-with open("data/all_prof_data.json", "r", encoding="utf-8") as f:
-    prof_data = json.load(f)
-
-if not prof_data:
-    print("Failed to load local data, trying again...")
-    save_all_professor_data_to_json()
+try:
     with open("data/all_prof_data.json", "r", encoding="utf-8") as f:
         prof_data = json.load(f)
+except JSONDecodeError:
+    print("Failed to load local data, trying again...")
+    save_all_professor_data_to_json()
+    try:
+        with open("data/all_prof_data.json", "r", encoding="utf-8") as f:
+            prof_data = json.load(f)
+    except:
+        print("Error occurs, please report this")
 
 # initialize
 utm = University('utm', prof_data)
