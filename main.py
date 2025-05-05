@@ -1,3 +1,4 @@
+# -*- coding: utf-8 -*-
 from analysis import *
 from update import *
 from system_class import *
@@ -29,6 +30,12 @@ while True:
 # read all data
 with open("data/all_prof_data.json", "r", encoding="utf-8") as f:
     prof_data = json.load(f)
+
+if not prof_data:
+    print("Failed to load local data, trying again...")
+    save_all_professor_data_to_json()
+    with open("data/all_prof_data.json", "r", encoding="utf-8") as f:
+        prof_data = json.load(f)
 
 # initialize
 utm = University('utm', prof_data)
