@@ -72,7 +72,11 @@ Follow the prompts:
 
 ## Example Screenshot
 
-Below is a example plot generated from department of Mathematics.
+Below are three example plots generated data collected.
+
+![Difficulty Ranking Chart](https://raw.githubusercontent.com/Jackymn25/utm-professor-analysis-rmp/main/plots/pic_1.png)
+
+![Difficulty Ranking Chart](https://raw.githubusercontent.com/Jackymn25/utm-professor-analysis-rmp/main/plots/pic_2.png)
 
 ![Difficulty Ranking Chart](https://raw.githubusercontent.com/Jackymn25/utm-professor-analysis-rmp/main/plots/myplot1.png)
 
