@@ -31,7 +31,7 @@ while True:
 try:
     with open("data/all_prof_data.json", "r", encoding="utf-8") as f:
         prof_data = json.load(f)
-except JSONDecodeError:
+except:
     print("Failed to load local data, trying again...")
     save_all_professor_data_to_json()
     try:
