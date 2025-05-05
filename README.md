@@ -38,6 +38,7 @@ pip install -r requirements.txt
 
 2. Run the main program:
 
+Note: Must update for first run!
 ```bash
 python main.py
 ```
